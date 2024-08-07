@@ -187,7 +187,7 @@ const App = () => {
               {affordableItems.map((item, index) => (
                 <tr key={index} className="hover:bg-gray-100 transition-colors duration-200">
                   <td className="py-3 px-6 border-b text-left text-gray-700">{item.name}</td>
-                  <td className="py-3 px-6 border-b text-left text-gray-700">{item.category}</td>
+                  <td className="py-3 px-6 border-b text-left text-gray-700">{item.section}</td>
                   <td className="py-3 px-6 border-b text-left text-gray-700">{item.price.toLocaleString()}</td>
                   <td className="py-3 px-6 border-b text-left text-gray-700">{item.profitPerHourDelta}</td>
                   <td className="py-3 px-6 border-b text-left text-gray-700">{item.priceToProfitRatio.toFixed(2)}</td>
